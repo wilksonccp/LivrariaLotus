@@ -284,7 +284,7 @@
         </mxCell>
         <mxCell id="BMDY53nQwSwMSitKVLx5-43" value="Contato" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="135" y="310" width="80" height="30" as="geometry">
-            <mxRectangle x="240" y="550" width="180" height="190" as="alternateBounds" />
+            <mxRectangle x="135" y="310" width="180" height="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BMDY53nQwSwMSitKVLx5-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="BMDY53nQwSwMSitKVLx5-43">
@@ -380,9 +380,9 @@
         <mxCell id="BMDY53nQwSwMSitKVLx5-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BMDY53nQwSwMSitKVLx5-185" target="BMDY53nQwSwMSitKVLx5-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BMDY53nQwSwMSitKVLx5-189" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;(1,n)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BMDY53nQwSwMSitKVLx5-187">
+        <mxCell id="BMDY53nQwSwMSitKVLx5-189" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;(1,1)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BMDY53nQwSwMSitKVLx5-187">
           <mxGeometry x="0.7474" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" y="-2" as="offset" />
+            <mxPoint x="1" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BMDY53nQwSwMSitKVLx5-185" value="POSSUI" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
