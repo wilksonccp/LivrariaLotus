@@ -76,8 +76,10 @@ GO
 CREATE TABLE IF NOT EXISTS main.Cliente (
     ClienteId UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID() PRIMARY KEY,
     NomeCompleto VARCHAR(100) NOT NULL UNIQUE,
-    DataCadastro DATETIME NOT NULL DEFAULT GETDATE(),
-    Ativo BIT NOT NULL DEFAULT 1
+    Email VARCHAR(100) NOT NULL UNIQUE,
+    SenhaHash VARCHAR(255) NOT NULL,
+    Ativo BIT NOT NULL DEFAULT 1,
+    DataCadastro DATETIME NOT NULL DEFAULT SYSDATETIME()
 );
 GO
 -- Indice para otimizar a busca por nome completo do cliente
