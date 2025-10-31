@@ -14,7 +14,7 @@ header, footer {
 }
 
 h1, h2 {
-  color: #333;
+  color: #f3e5f6;
 }
 
 .card {
@@ -25,13 +25,50 @@ h1, h2 {
   border-radius: 5px;
 }
 .destaques {
+  border: #e67e22 2px solid;
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
+  justify-content: flex-start;
+  gap: 5%;
+  flex-wrap: wrap;
   align-items: center;
   color: #e67e22;
   font-weight: bold;
 }
+/* no celular os cards devem ocupar 100% da largura com um gap de 5% entre eles */
 .card-livro {
-    max-width: 60%;
-    min-width: 100px;
+  display: flex;
+    border: #333 2px solid;
+    flex: 1 1 60%;
+    min-width: 150px;
+    max-width: 20%;
+    margin-bottom: 5px;
+}
+.logo_retangular {
+  min-width: 10%;
+  max-width: 40%;
+  height: auto;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.botao-login, .botao-carrinho {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cabecalho div {
+  display: flex;
+  align-items:flex-start;
+}
+@media screen {
+  
+  
 }
