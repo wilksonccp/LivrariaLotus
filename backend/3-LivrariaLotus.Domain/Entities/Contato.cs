@@ -6,7 +6,7 @@ public class Contato
     public Cliente? Cliente { get; set; }
     public Funcionario? Funcionario { get; set; }
     public string Valor { get; set; }
-    public TipoContato TipoContato { get; set; }
+    public EnumTipoContato TipoContato { get; set; }
     public bool Validado { get; set; } = false;
     public bool Preferencial { get; set; } = false;
 }

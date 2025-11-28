@@ -1,5 +1,5 @@
 namespace backend.Models.Enums;
-public enum TipoContato
+public enum EnumTipoContato
 {
     Telefone = 1,
     Email = 2,

@@ -1,5 +1,5 @@
 namespace backend.Models.Enums;
-public enum TipoUsuario
+public enum EnumTipoUsuario
 {
     Cliente = 1,
     Funcionario = 2

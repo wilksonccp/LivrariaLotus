@@ -4,5 +4,5 @@ namespace backend.Models;
         public int UsuarioId { get; set; }
         public string Email { get; set; }
         public string SenhaHash { get; set; }
-        public TipoUsuario Tipo { get; set; }
+        public EnumTipoUsuario Tipo { get; set; }
     }

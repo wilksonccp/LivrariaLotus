@@ -12,6 +12,9 @@ public class Cliente
     public DateTime DataCadastro { get; set; }
     public Boolean Ativo { get; set; } = true;
     public Usuario Usuario { get; set; }
+
+    public ICollection<Contato> Contatos { get; set; } = new List<Contato>();
+    public ICollection<Endereco> Enderecos { get; set; } = new List<Endereco>();
 }
 //TODO: Inserir restrição de documento único no banco de dados para o campo Documento.
 //TODO: Inserir indice de pesquisa para o campo NomeCompleto no banco de dados.

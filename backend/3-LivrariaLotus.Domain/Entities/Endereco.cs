@@ -12,5 +12,5 @@ public class Endereco
     public string Estado { get; set; }
     public string Cep { get; set; }
     public string Pais { get; set; }
-    public TipoEndereco TipoEndereco { get; set; }
+    public EnumTipoEndereco TipoEndereco { get; set; }
 }
