@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "3-LivrariaLotus.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/3-LivrariaLotus.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/3-LivrariaLotus.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "3-LivrariaLotus.Domain/1.0.0": {
+      "type": "project",
+      "path": "../3-LivrariaLotus.Domain/3-LivrariaLotus.Domain.csproj",
+      "msbuildProject": "../3-LivrariaLotus.Domain/3-LivrariaLotus.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "3-LivrariaLotus.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\wilks\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\wilks\\OneDrive\\Documentos\\APRENDENDO A PROGRAMAR\\PROJETOS\\LivrariaLotus\\backend\\3-LivrariaLotus.Domain\\3-LivrariaLotus.Domain.csproj": {
+              "projectPath": "C:\\Users\\wilks\\OneDrive\\Documentos\\APRENDENDO A PROGRAMAR\\PROJETOS\\LivrariaLotus\\backend\\3-LivrariaLotus.Domain\\3-LivrariaLotus.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

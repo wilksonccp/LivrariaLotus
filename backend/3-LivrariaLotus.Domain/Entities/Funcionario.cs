@@ -1,15 +1,15 @@
-namespace backend.Models;
+namespace LivrariaLotus.Domain.Entities;
 
 public class Funcionario
 {
     public int FuncionarioId { get; set; }
-    public string NomeCompleto { get; set; }
-    public string Documento { get; set; }
+    public required string NomeCompleto { get; set; }
+    public required string Documento { get; set; }
     public DateTime DataContratacao { get; set; }
     public DateTime DataNascimento { get; set; }
-    public string Cargo { get; set; }
+    public required string Cargo { get; set; }
     public bool Ativo { get; set; } = true;
-    public Usuario Usuario { get; set; }
+    public required Usuario Usuario { get; set; }
 }
 
 

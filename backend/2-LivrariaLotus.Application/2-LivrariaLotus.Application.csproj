@@ -5,9 +5,14 @@
     <ProjectReference Include="..\4-LivrariaLotus.Infrastructure\4-LivrariaLotus.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.0" />
+    <PackageReference Include="MediatR" Version="13.1.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
-    <RootNamespace>_2_LivrariaLotus.Application</RootNamespace>
+    <RootNamespace>LivrariaLotus.Application</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

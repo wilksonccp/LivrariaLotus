@@ -1,8 +1,10 @@
-namespace backend.Models;
+using LivrariaLotus.Domain.ValueObjects;
+using LivrariaLotus.Domain.Enums;
+namespace LivrariaLotus.Domain.Entities;
     public class Usuario
     {
         public int UsuarioId { get; set; }
-        public string Email { get; set; }
-        public string SenhaHash { get; set; }
+        public required VOEmail Email { get; set; }
+        public required VOSenha Senha { get; set; }
         public EnumTipoUsuario Tipo { get; set; }
     }

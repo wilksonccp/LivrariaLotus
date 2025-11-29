@@ -1,7 +1,7 @@
-namespace backend.Models.Enums;
+namespace LivrariaLotus.Domain.Enums;
 public enum EnumTipoContato
 {
     Telefone = 1,
-    Email = 2,
+    EnderecoEmail = 2,
     WhatsApp = 3
 }
